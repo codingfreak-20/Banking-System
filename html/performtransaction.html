@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Banking System | Transfer Money</title>
+    <center><h1>Transfer Money</h1></center>
+  </head>
+    <style>
+        h1 {
+             font-size:2em;
+             color:firebrick;
+        }
+        
+        head {
+    font-size:3em;
+    color:indianred;
+}
+        body {
+  background-color: goldenrod;
+  font-size: 2em;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 20px 30px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;     
+}
+
+input[type=submit]:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: wheat;
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+    </style>
+    
+  
+  <body>
+    
+      <div>
+          <form class="input-form" action="/bank/insertdata" method="post" id="formid">
+
+              <b><label>Sender ID</label></b>
+            <input type="text" name="sid" value=""/>
+            <br />
+            <b>  <label>Sender Name</label></b>
+                <input type="text" name="sname" value=""/>
+            <br />
+            <b> <label>Receiver ID</label></b>
+                <input type="text" name="rid" value=""/>
+             <br />
+             <b> <label>Receiver Name</label></b>
+                 <input type="text" name="rname" value=""/>
+            <br />
+            <b>  <label>Amount</label></b>
+            <input  type="number" name="amt" value="" />
+            <br />
+            <center><button class="btn btn-lg  btn-outline-light download-button" type="submit">Transfer</button>
+            </center> 
+                   
+          </form>
+
+        </div>
+    
+
+  </body>
+</html>

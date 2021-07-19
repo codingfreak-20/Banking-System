@@ -1,0 +1,23 @@
+body {
+  background: floralwhite;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: green;
+}
+
+table{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1.50em;
+  text-align: center;
+  background: lightyellow;
+margin-left: 40px;
+}
+th,td {
+  padding: 5px;
+  font-size: 1em;
+  text-align: center;
+
+}
